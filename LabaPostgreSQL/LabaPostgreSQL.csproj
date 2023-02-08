@@ -8,6 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Dapper" Version="1.50.2" />
+        <PackageReference Include="Drapper" Version="1.2.0" />
+        <PackageReference Include="Npgsql" Version="7.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
