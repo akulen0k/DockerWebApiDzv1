@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="200f387f-b30d-418d-a852-cb17c8272a28" name="kek" url="http://79.165.97.39">
+        <fileTransfer anonymous="true" accessType="WEBDAV" host="79.165.97.39" port="8080">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

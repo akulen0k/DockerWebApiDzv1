@@ -1,8 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33205.214
-MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabaPostgreSQL", "LabaPostgreSQL\LabaPostgreSQL.csproj", "{9212F825-5720-4997-A612-642D75C89756}"
 EndProject
 Global
@@ -15,11 +12,5 @@ Global
 		{9212F825-5720-4997-A612-642D75C89756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9212F825-5720-4997-A612-642D75C89756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9212F825-5720-4997-A612-642D75C89756}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {48A7B1A5-A5C3-4C7D-ADE2-65C53C03463D}
 	EndGlobalSection
 EndGlobal
