@@ -13,6 +13,7 @@ builder.Services.Configure<PostgresOptions>(builder.Configuration.GetSection(nam
 
 var app = builder.Build();
 
+app.UseMiddleware<RequestLogger>();
 app.UseSwagger();
 app.UseSwaggerUI();
 
