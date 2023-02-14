@@ -1,20 +1,14 @@
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
-using System.Threading.Tasks;
-
-
 namespace LabaPostgreSQL;
-
 
 public class RequestLogger
 {
     private readonly RequestDelegate _next;
     private readonly ILogger _logger;
 
-    public RequestLogger(RequestDelegate next, ILoggerFactory logfact)
+    public RequestLogger(RequestDelegate next, ILoggerFactory logFactory)
     {
         _next = next;
-        _logger = logfact.CreateLogger<RequestLogger>();
+        _logger = logFactory.CreateLogger<RequestLogger>();
     }
     
     public async Task Invoke(HttpContext context)
@@ -26,7 +20,7 @@ public class RequestLogger
         finally
         {
             _logger.LogInformation(
-                "Request {method} {url} returned {statusCode}",
+                "Request {Method} {Url} returned {StatusCode}",
                 context.Request?.Method,
                 context.Request?.Path.Value,
                 context.Response?.StatusCode);
